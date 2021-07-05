@@ -5,7 +5,9 @@
     "main": "src/index.ts",
     "scripts": {
         "format": "prettier ./src/**/*.ts -w",
-        "lint": "eslint --fix"
+        "lint": "eslint --fix",
+        "build": "tsc",
+        "test": "jest"
     },
     "keywords": [
         "console",
