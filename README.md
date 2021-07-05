@@ -1,6 +1,6 @@
 # Multi-Console
 
-===
+---
 
 multi-console is a module for clustering console outputs
 
