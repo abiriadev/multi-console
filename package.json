@@ -1,0 +1,40 @@
+{
+    "name": "multi-console",
+    "version": "0.1.0",
+    "description": "multi-console is a module for clustering console outputs",
+    "main": "src/index.ts",
+    "scripts": {
+        "format": "prettier ./src/**/*.ts -w",
+        "lint": "eslint --fix"
+    },
+    "keywords": [
+        "console",
+        "logger",
+        "log",
+        "debug"
+    ],
+    "author": "Abiria",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.23",
+        "@types/node": "^16.0.0",
+        "@typescript-eslint/parser": "^4.28.1",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "jest": "^27.0.6",
+        "prettier": "^2.3.1",
+        "ts-jest": "^27.0.3",
+        "ts-node": "^10.0.0",
+        "typescript": "^4.3.5"
+    },
+    "bin": {
+        "mc": "dist/bin/mc.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/abiriadev/multi-console.git"
+    },
+    "bugs": {
+        "url": "https://github.com/abiriadev/multi-console/issues"
+    },
+    "homepage": "https://github.com/abiriadev/multi-console#readme"
+}

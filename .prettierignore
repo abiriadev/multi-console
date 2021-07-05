@@ -1,0 +1,12 @@
+node_modules/
+PORT.key
+yarn-error.log
+yarn.lock
+tsBuildInfoFile
+README.md
+package-lock.json
+.gitignore
+.npmignore
+.idea
+.env
+.gitattributes

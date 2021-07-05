@@ -1,0 +1,6 @@
+node_modules/
+src/
+tsBuildInfoFile
+yarn-error.log
+.idea
+.env

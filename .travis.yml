@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - v16
+
+before_script: 
+  - npm i
+  - npm i -g jest
+
+script: jest
+
+after_script: echo yeah!!
