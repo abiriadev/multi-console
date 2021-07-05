@@ -1,6 +1,6 @@
 {
     "name": "multi-console",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "multi-console is a module for clustering console outputs",
     "main": "src/index.ts",
     "scripts": {
